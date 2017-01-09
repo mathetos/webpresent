@@ -1,0 +1,29 @@
+{
+  "name": "webpresent",
+  "version": "1.0.0",
+  "description": "A dynamic presentation template for online interactive presentations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style compressed -w assets/scss/ -o ../wcsd17/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathetos/webpresent.git"
+  },
+  "keywords": [
+    "web",
+    "presentation",
+    "php",
+    "slides"
+  ],
+  "author": "Matt Cromwell (@mathetos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathetos/webpresent/issues"
+  },
+  "homepage": "https://github.com/mathetos/webpresent#readme",
+  "devDependencies": {
+    "node-sass": "^4.2.0"
+  }
+}
