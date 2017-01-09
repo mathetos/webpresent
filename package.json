@@ -4,9 +4,12 @@
   "description": "A dynamic presentation template for online interactive presentations.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --output-style compressed assets/scss/ -o ../wcsd17/",
-    "autoprefixer": "postcss -u autoprefixer -r main.css"
+    "test": "echo \"Error: Just your basic error message.\" && exit 1",
+    "scss": "node-sass --output-style compressed -w assets/scss/ -o ../wcsd17/",
+    "autoprefixer": "postcss -u autoprefixer -r main.css",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "serve": "livereload -u '../wcsd17/, assets/, slides/'",
+    "watch": "scss && livereload"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
   "homepage": "https://github.com/mathetos/webpresent#readme",
   "devDependencies": {
     "autoprefixer": "^6.6.1",
+    "livereload": "^0.6.0",
     "node-sass": "^4.2.0",
     "postcss-cli": "^2.6.0"
   }
