@@ -30,11 +30,8 @@ require_once('functions.php');
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800">
-    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/assets/css/normalize.css">
-    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/assets/css/keyframes.css">
-    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/assets/css/layout.css">
-    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/assets/css/pageTransitions.css">
-    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/assets/css/jquery.fullpage.min.css">
+
+    <link rel="stylesheet" href="<?php print_r( HOME_URL );?>/main.css">
 </head>
 
 <?php
